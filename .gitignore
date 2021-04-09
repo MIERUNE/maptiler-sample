@@ -2,4 +2,5 @@ node_modules/
 bundle.js
 .env
 
-docs/geocoding
+docs/geocoding/bundle.js
+docs/geocoding/index.html
