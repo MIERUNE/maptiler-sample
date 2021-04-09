@@ -19,7 +19,7 @@
     "mapbox-gl": "1.13.1"
   },
   "scripts": {
-    "build": "webpack --mode production --config webpack.config.js",
+    "build": "webpack --mode production --config webpack.config.js && cp -r docs/. ../docs/geocoding",
     "dev": "webpack serve --mode development --content-base docs --open --hot --inline --config webpack.config.js"
   }
 }
