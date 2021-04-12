@@ -37,7 +37,31 @@ dev
 npm run dev
 ```
 
----
+<br>
+
+## Example
+
+<br>
+
+./_resouce/js
+
+script.js
+```javascript
+// MIERUNE Streets読み込み
+const map = new mapboxgl.Map({
+    container: 'map',
+    style: 'https://api.maptiler.com/maps/jp-mierune-streets/style.json?key=[APIキー]',
+    center: [139.767, 35.681],
+    zoom: 13,
+});
+
+// コントロール関係表示
+map.addControl(
+    new mapboxgl.NavigationControl({
+        visualizePitch: true,
+    })
+);
+```
 
 <br>
 <br>
@@ -101,6 +125,32 @@ npm run build
 
 ```bash
 npm run dev
+```
+
+<br>
+
+## 例
+
+<br>
+
+./_resouce/js
+
+script.js
+```javascript
+// MIERUNE Streets読み込み
+const map = new mapboxgl.Map({
+    container: 'map',
+    style: 'https://api.maptiler.com/maps/jp-mierune-streets/style.json?key=[APIキー]',
+    center: [139.767, 35.681],
+    zoom: 13,
+});
+
+// コントロール関係表示
+map.addControl(
+    new mapboxgl.NavigationControl({
+        visualizePitch: true,
+    })
+);
 ```
 
 <br>
