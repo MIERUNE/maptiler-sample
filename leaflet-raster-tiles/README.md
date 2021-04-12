@@ -1,4 +1,4 @@
-# leaflet-starter
+# Leaflet x MapTiler Raster Tiles
 
 ![README02](img/README02.png)
 
@@ -61,7 +61,7 @@ Copyright (c) 2021 MIERUNE Inc.
 
 <br>
 
-# Leaflet スターター
+# Leaflet x MapTiler ラスタタイル
 
 ![README02](img/README02.png)
 

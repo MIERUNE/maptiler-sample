@@ -1,4 +1,4 @@
-# maplibregljs-starter
+# MapLibre GL JS x MapTiler Vector Tiles
 
 ![README02](img/README02.png)
 
@@ -59,7 +59,7 @@ Copyright (c) 2021 MIERUNE Inc.
 
 <br>
 
-# MapLibreGLJS スターター
+# MapLibre GL JS x MapTiler ベクトルタイル
 
 ![README02](img/README02.png)
 
